@@ -1,0 +1,12 @@
+# Versions used for the reported experiments (Kaggle, NVIDIA Tesla T4, Python 3.12)
+torch==2.11.0
+torchvision==0.26.0
+transformers>=4.44
+datasets>=2.19          # Million-AID download from Hugging Face (notebook 02)
+numpy
+pandas
+scipy
+scikit-learn
+opencv-python-headless
+matplotlib
+Pillow

@@ -1,0 +1,16 @@
+Parameter,Value,Validation accuracy (%),Validation macro F1 (%),Epochs,Seed
+CLAHE clip limit,1.5,–,–,10,0
+CLAHE clip limit,2 (default),–,–,10,0
+CLAHE clip limit,3,–,–,10,0
+CLAHE tile grid size,6×6,–,–,10,0
+CLAHE tile grid size,8×8 (default),–,–,10,0
+CLAHE tile grid size,10×10,–,–,10,0
+Embedding dimension d,128,–,–,10,0
+Embedding dimension d,256 (default),–,–,10,0
+Embedding dimension d,512,–,–,10,0
+Learning rate,1e-05,–,–,10,0
+Learning rate,0.0001 (default),–,–,10,0
+Learning rate,0.001,–,–,10,0
+Batch size,8,–,–,10,0
+Batch size,16 (default),–,–,10,0
+Batch size,32,–,–,10,0

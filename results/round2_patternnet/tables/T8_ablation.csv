@@ -1,0 +1,7 @@
+Configuration,CLAHE,Semantic stream (SegFormer-B2),Fusion,Accuracy (%),Macro F1 (%),Macro AUC (OvR),Seeds (n),McNemar p vs. full (max over seeds)
+"MobileNetV2 (baseline, no CLAHE)",No,No,None,–,–,–,0,–
+MobileNetV2 + CLAHE,Yes,No,None,99.68 ± 0.03,99.68 ± 0.03,1.0000 ± 0.0000,3,3.27e-01
+MobileNetV2 + CLAHE + SegFormer (concatenation),Yes,Yes,Concatenation,–,–,–,0,–
+MobileNetV2 + CLAHE + SegFormer (addition),Yes,Yes,Element-wise addition,–,–,–,0,–
+MobileNetV2 + SegFormer + SG-CAM (no CLAHE),No,Yes,SG-CAM,–,–,–,0,–
+Full model: CLAHE + SegFormer + SG-CAM,Yes,Yes,SG-CAM,99.57 ± 0.03,99.57 ± 0.02,1.0000 ± 0.0000,3,–

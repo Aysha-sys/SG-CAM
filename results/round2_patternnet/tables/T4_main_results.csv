@@ -1,0 +1,2 @@
+Dataset,Model,Accuracy (%),Macro precision (%),Macro recall (%),Macro F1 (%),Weighted F1 (%),Cohen's κ (×100),Top-5 accuracy (%),Macro AUC (OvR),Seeds (n)
+PatternNet (test),SG-CAM (MobileNetV2),99.57 ± 0.03,99.57 ± 0.02,99.57 ± 0.03,99.57 ± 0.02,99.57 ± 0.02,99.56 ± 0.03,99.99 ± 0.01,1.0000 ± 0.0000,3

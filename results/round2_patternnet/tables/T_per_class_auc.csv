@@ -1,0 +1,39 @@
+Class,AUC
+Airplane,1.0
+Baseball Field,1.0
+Basketball Court,0.9999873310810811
+Beach,1.0
+Bridge,0.9999968327702703
+Cemetery,1.0
+Chaparral,1.0
+Christmas Tree Farm,1.0
+Closed Road,0.9999989442567567
+Coastal Mansion,0.9999123733108108
+Crosswalk,1.0
+Dense Residential,0.9999841638513514
+Ferry Terminal,0.9999155405405405
+Football Field,1.0
+Forest,1.0
+Freeway,1.0
+Golf Course,1.0
+Harbor,0.9999435177364865
+Intersection,0.9999978885135135
+Mobile Home Park,1.0
+Nursing Home,0.9999809966216215
+Oil Gas Field,1.0
+Oil Well,1.0
+Overpass,0.9999989442567567
+Parking Lot,1.0
+Parking Space,1.0
+Railway,0.9999989442567567
+River,1.0
+Runway,1.0
+Runway Marking,1.0
+Shipping Yard,1.0
+Solar Panel,1.0
+Sparse Residential,0.9998558910472973
+Storage Tank,0.9999989442567568
+Swimming Pool,1.0
+Tennis Court,0.9999989442567567
+Transformer Station,1.0
+Wastewater Treatment Plant,0.999995777027027

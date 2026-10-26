@@ -1,0 +1,5 @@
+Backbone,Without SG-CAM: accuracy (%),With SG-CAM: accuracy (%),Without SG-CAM: macro F1 (%),With SG-CAM: macro F1 (%),Δ accuracy (pp),Trainable params with SG-CAM (M),Seeds (n)
+MobileNetV2,99.68 ± 0.03,99.57 ± 0.03,99.68 ± 0.03,99.57 ± 0.02,-0.11,3.95,3/3
+ResNet-50,–,–,–,–,–,–,0/0
+DenseNet-121,–,–,–,–,–,–,0/0
+EfficientNet-B0,–,–,–,–,–,–,0/0

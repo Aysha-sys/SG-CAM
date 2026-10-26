@@ -1,0 +1,5 @@
+Class,Total,Train,Validation,Test
+dry field,366,220,73,73
+greenhouse,159,95,32,32
+paddy field,1033,620,206,207
+terraced field,674,404,135,135

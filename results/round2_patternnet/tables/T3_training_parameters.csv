@@ -1,0 +1,14 @@
+Parameter,Value
+Optimizer,Adam
+Initial learning rate,0.0001
+Batch size,16
+Learning-rate schedule,Step decay ×0.1 every 10 epochs
+Epochs,15 (best epoch selected on validation accuracy)
+Loss function,Cross-entropy (scene labels only)
+Input size,256×256
+CLAHE,"clip limit 2.0, tile grid 8×8 (L channel, LAB)"
+Data split,"Stratified 60/20/20 train/validation/test, split seed 42"
+Random seeds,"0, 1, 2"
+Mixed precision,FP16 autocast
+Semantic encoder,nvidia/segformer-b2-finetuned-ade-512-512 (frozen)
+SG-CAM dimension d,256

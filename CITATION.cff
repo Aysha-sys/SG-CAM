@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: "Semantic–Visual Feature Fusion via Cross-Attention for Remote Sensing Land-Cover Scene Classification (code and data)"
+authors:
+  - family-names: Menshawi
+    given-names: Alaa
+  - family-names: Naseer
+    given-names: Aysha
+  - family-names: Almjally
+    given-names: Abrar
+  - family-names: Altaf
+    given-names: Meteb
+  - family-names: Alnowaiser
+    given-names: Khaled
+license: MIT
+repository-code: "https://github.com/<USERNAME>/SG-CAM"

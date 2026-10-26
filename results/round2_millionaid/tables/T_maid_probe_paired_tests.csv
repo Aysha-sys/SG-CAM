@@ -1,0 +1,7 @@
+Comparison,Metric,Pairs (n),Mean difference (pp),Wilcoxon p,Paired t-test p
+C (SG-CAM) − B (no SG-CAM),accuracy,25,+0.22,0.1,0.131
+C (SG-CAM) − E (concatenation),accuracy,15,-0.24,0.28,0.243
+C (SG-CAM) − B (no SG-CAM),balanced_accuracy,25,-0.06,0.731,0.792
+C (SG-CAM) − E (concatenation),balanced_accuracy,15,-0.41,0.229,0.221
+C (SG-CAM) − B (no SG-CAM),macro_f1,25,+0.27,0.182,0.197
+C (SG-CAM) − E (concatenation),macro_f1,15,-0.27,0.359,0.363

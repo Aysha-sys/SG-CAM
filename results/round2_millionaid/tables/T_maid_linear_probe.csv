@@ -1,0 +1,6 @@
+Feature extractor (frozen),Accuracy (%),Balanced accuracy (%),Macro F1 (%),Macro AUC (OvR),Runs (n)
+A: ImageNet MobileNetV2,99.02 ± 0.56,98.76 ± 0.78,98.63 ± 0.73,0.9996 ± 0.0002,5
+B: PatternNet MobileNetV2 (no SG-CAM),98.41 ± 0.48,98.08 ± 0.89,97.95 ± 0.85,0.9992 ± 0.0008,25
+C: PatternNet SG-CAM (proposed),98.63 ± 0.61,98.02 ± 0.92,98.23 ± 0.88,0.9994 ± 0.0007,25
+D: SegFormer-B2 features only,98.12 ± 0.46,97.50 ± 0.99,97.44 ± 0.80,0.9992 ± 0.0002,5
+E: PatternNet concatenation fusion,98.76 ± 0.59,98.22 ± 1.14,98.30 ± 0.93,0.9995 ± 0.0004,15

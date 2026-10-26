@@ -1,0 +1,6 @@
+Model,Mean accuracy over all degradations (%),Seeds (n)
+B: no SG-CAM,73.67 ± 2.12,5
+C: SG-CAM,77.36 ± 1.46,5
+E: concatenation fusion,77.24 ± 0.24,3
+"Δ C−B (pp), seed-paired",+3.69 (paired t-test p = 0.0017),5
+"Δ C−E (pp), seed-paired",+0.56 (paired t-test p = 0.488),3

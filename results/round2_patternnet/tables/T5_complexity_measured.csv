@@ -1,0 +1,5 @@
+Model,Trainable params (M),Frozen params (M),Total params (M),GFLOPs / image,"Latency, batch 1 (ms)","Throughput, batch 8 (img/s)"
+MobileNetV2 baseline (no semantic stream),2.90,0.00,2.90,0.78,5.5,1261.0
+MobileNetV2 + SegFormer-B2 (concatenation),3.23,27.46,30.69,30.52,27.1,160.6
+MobileNetV2 + SegFormer-B2 + SG-CAM (proposed),3.95,27.46,31.41,30.63,28.0,157.7
+SG-CAM module only,1.05,0.00,1.05,0.138,–,–
